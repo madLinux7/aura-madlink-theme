@@ -1,0 +1,54 @@
+{
+    "slug": "aura",
+    "name": "Aura",
+    "preview_gradient": "sunset-lavender",
+    "short": "au",
+    "contract_version": 1,
+    "version": "0.1.0",
+    "madlink_version": ">=0.1.0 <0.2.0",
+    "author": "madLinux7",
+    "requires_alpine": false,
+    "link_type": "link_button",
+    "avatar_customizable": true,
+    "avatar_breakpoint_class": "au-avatar-wrapper",
+    "default_config": {
+        "background": "gradient",
+        "gradient": "sunset-lavender",
+        "custom_gradient": null,
+        "accent_color": "#ffdaa3",
+        "accent_color_active": true,
+        "avatar": {
+            "border-radius": "10%",
+            "breakpoints": [
+                {
+                    "x": 1000,
+                    "max-width": 200,
+                    "max-height": 200
+                }
+            ]
+        },
+        "link_button": {
+            "gap_x": 0,
+            "gap_y": 14,
+            "form": "rounded",
+            "shadow_type": "drop_left",
+            "type": "filled",
+            "default_color": "#ffdaa3",
+            "default_text_color": "#1a1a2e",
+            "shadow_color": null
+        },
+        "font": {
+            "head": {
+                "family": "habibi",
+                "weight": 700
+            },
+            "body": {
+                "family": "habibi",
+                "weight": 500
+            }
+        },
+        "qr_code": "toggle"
+    },
+    "license": "AGPL-3.0-or-later",
+    "repository_url": "https://github.com/madLinux7/aura-madlink-theme"
+}

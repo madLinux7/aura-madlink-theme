@@ -1,0 +1,55 @@
+slug = "aura"
+name = "Aura"
+preview_gradient = "sunset-lavender"
+
+repository_url = "https://github.com/madLinux7/aura-madlink-theme"
+author = "madLinux7"
+license = "AGPL-3.0-or-later"
+
+tags = ["Builtin", "Elegant", "Buttons"]
+screenshots = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
+
+theme_version = 1
+contract_version = 1
+madlink_min_version = "0.1.0"
+
+link_type = "link_button"
+avatar_customizable = true
+avatar_breakpoint_class = "aura-avatar-wrapper"
+requires_alpine = false
+
+[summary]
+en = "Classic profile-led button theme"
+
+[default_config]
+background = "gradient"
+gradient = "sunset-lavender"
+accent_color = "#ffdaa3"
+accent_color_active = true
+qr_code = "toggle"
+
+[default_config.avatar]
+border-radius = "10%"
+
+[[default_config.avatar.breakpoints]]
+x = 1000
+max-width = 200
+max-height = 200
+
+[default_config.link_button]
+gap_x = 0
+gap_y = 14
+form = "rounded"
+shadow_type = "drop_left"
+type = "filled"
+default_color = "#ffdaa3"
+default_text_color = "#1a1a2e"
+
+[default_config.font]
+[default_config.font.head]
+family = "habibi"
+weight = 700
+
+[default_config.font.body]
+family = "habibi"
+weight = 500
